@@ -2723,8 +2723,8 @@ var PanelFooter = function (_a) {
                 React.createElement(Icon$T, null))));
     }
     return (React.createElement(Container, null,
-        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://gateway.pinata.cloud/ipfs/QmUD6LcJfoFDSwzDKdewzUmnaVH6q389c1Xo5aqjcTFf3M", target: "_blank" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "SOAB Logo", style: {
+        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x8371a55dBEE669f16bD9e6137e2cE39ee87aE8e2", target: "_blank" },
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmUD6LcJfoFDSwzDKdewzUmnaVH6q389c1Xo5aqjcTFf3M", alt: "SOAB Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
