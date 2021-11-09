@@ -1,11 +1,12 @@
+import { getOpcodeLength } from "hardhat/internal/hardhat-network/stack-traces/opcodes";
 import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#fa113e",
-  primary: "#FD8501",
-  primaryBright: "#FD8501",
-  primaryDark: "#90250B",
-  secondary: "#FC8600",
+  primary: "#FECC47",
+  primaryBright: "#FECC47",
+  primaryDark: "#231F20",
+  secondary: "#FECC47",
   success: "#15bd69",
   warning: "#fa113e",
 };
@@ -23,9 +24,9 @@ export const lightColors: Colors = {
   invertedContrast: "#FFFFFF", // white
   input: "#eeeeee",
   tertiary: "#EFF4F5",
-  text: "#90250B",
+  text: "#FECC47",
   textDisabled: "#BDC2C4",
-  textSubtle: "#90250B",
+  textSubtle: "#FECC47",
   borderColor: "#E9EAEB",
   card: "#FFFFFF",
   gradients: {
@@ -46,7 +47,7 @@ export const darkColors: Colors = {
   tertiary: "#353547",
   text: "#EAE2FC",
   textDisabled: "#666171",
-  textSubtle: "#FFBE26",
+  textSubtle: "#FECC47",
   borderColor: "#524B63",
   card: "#27262c",
   gradients: {
